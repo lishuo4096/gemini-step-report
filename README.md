@@ -18,6 +18,15 @@ Standard `AGENTS.md` / `GEMINI.md` rules apply to **all** models indiscriminatel
 
 ---
 
+## Before vs. After / 安装前后对比
+
+| Before (Default Gemini) / 安装前（默认闷头执行） | After (`gemini-step-report`) / 安装后（第一人称分步回报） |
+| :---: | :---: |
+| ![Before installing gemini-step-report](./assets/before.jpg) | ![After installing gemini-step-report](./assets/after.jpg) |
+| Silent tool calls for minutes with zero progress updates.<br>连续静默调用工具 8 分钟，全程没有任何进度反馈。 | Clear step-by-step updates in natural first-person Chinese.<br>每步主动用自然的第一人称汇报做了什么、发现了什么、下一步做什么。 |
+
+---
+
 ## Key Features / 核心特性
 
 - **Gemini-only injection / 仅对 Gemini 生效**: Skips Claude and other non-Gemini models automatically (`GEMINI_STEP_REPORT_MODEL_RE` env var can override the regex).
@@ -38,6 +47,9 @@ gemini-step-report/
 │   └── inject.js         # Model-filtering injector script (Node.js) / 按模型过滤的注入脚本
 ├── protocol/
 │   └── AGENTS.md         # Step-by-step reporting protocol (English) / 分步回报协议正文（英文）
+├── assets/
+│   ├── before.jpg        # Screenshot before installing / 安装前效果截图
+│   └── after.jpg         # Screenshot after installing / 安装后效果截图
 ├── LICENSE               # MIT License
 └── README.md
 ```
