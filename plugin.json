@@ -1,0 +1,16 @@
+{
+  "name": "gemini-step-report",
+  "displayName": "Gemini Step-by-Step Reporting",
+  "version": "0.1.0",
+  "license": "MIT",
+  "description": "Injects a step-by-step reporting and ask-before-guessing protocol (AGENTS.md) into Antigravity conversations, only when the active model is a Gemini model. User-facing replies in Simplified Chinese.",
+  "author": {
+    "name": "Zhang Shuo (lishuo4096)",
+    "url": "https://github.com/lishuo4096"
+  },
+  "homepage": "https://github.com/lishuo4096/gemini-step-report",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lishuo4096/gemini-step-report"
+  }
+}

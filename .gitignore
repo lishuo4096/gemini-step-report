@@ -1,0 +1,7 @@
+# Local debug flag / 本地调试开关文件
+DEBUG
+
+# Logs and OS artifacts / 日志与系统临时文件
+*.log
+.DS_Store
+Thumbs.db

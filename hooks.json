@@ -1,0 +1,10 @@
+{
+  "gemini-step-report": {
+    "SessionStart": [
+      { "type": "command", "command": "node hooks/inject.js", "timeout": 10 }
+    ],
+    "PreInvocation": [
+      { "type": "command", "command": "node hooks/inject.js", "timeout": 10 }
+    ]
+  }
+}
